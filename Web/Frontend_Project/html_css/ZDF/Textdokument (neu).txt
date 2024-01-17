@@ -1,0 +1,3 @@
+<img src="gfx/b1sw.jpg" name="wechsel1" style="margin-left: 10px" id="smallImage1"
+            onmouseover="document.images.wechsel1.src='gfx/b1.jpg'"     
+            onmouseout="document.images.wechsel1.src='gfx/b1sw.jpg'">

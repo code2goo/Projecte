@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(/Uebung/Ubung1/img/gfx/bg_body_kachel.png);
+            display: flex; 
+            justify-content: center;
+        }
+      
+        .div_img {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(234, 225, 213);
+            width:80%;
+            margin-left: 10%;
+            border-radius: 10px;
+        }
+        .div_img > a >img{
+            justify-content: center;
+            width: 100%;
+            padding: 3px;
+            border-radius: 10px;
+        }
+        .div_g_img > img {
+            border-radius: 10px;
+            margin-top: 20px;            
+        }
+        .active {
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div_img">
+            <a href="index.html"><img class="img1 active" src="img/gfx/b1sw.jpg" alt="" onmouseover="src='img/gfx/b1.jpg'" onmouseout="src='img/gfx/b1sw.jpg'"></a>
+            <a href="index2.html"><img  class="img2 " src="img/gfx/b2sw.jpg" alt="" onmouseover="src='img/gfx/b2.jpg'"onmouseout="src='img/gfx/b2sw.jpg'"></a>
+            <a href="index3.html"><img class="img3 " src="img/gfx/b3sw.jpg" alt="" onmouseover="src='img/gfx/b3.jpg'"onmouseout="src='img/gfx/b3sw.jpg'"></a>
+            <a href="index4.html"><img class="img4 " src="img/gfx/b4sw.jpg" alt="" onmouseover="src='img/gfx/b4.jpg'"onmouseout="src='img/gfx/b4sw.jpg'"></a>
+        </div>
+        <div class="div_g_img">
+            <img src="img/big_img1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

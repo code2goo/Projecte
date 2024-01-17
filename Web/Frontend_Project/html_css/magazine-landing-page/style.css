@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+    font-family: "Roboto";
+    display:flex;
+    /* width: 100vw;
+    height: 100vh; */
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    width: 100vw;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.de, .en {
+    margin-left: 15px;
+}
+.de {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight:900;
+}
+.de:hover {
+    background-color: black;
+    color: white;
+    cursor: grab;
+}
+.en {
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight:900;
+}
+.en:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: grab;
+}
+h1::first-letter {
+    color: red;
+    font-size: 150px;
+    font-weight: bolder;
+}
+
+h1 {
+  width: 20vw;
+  height: 30vh;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 120px;
+  font-weight:500;
+}
+h2{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 45px;
+    font-weight:100;
+}
+img { 
+  width: 30vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15rem;
+}
+.r_h4 {
+    width: 16vw;
+    height: 8vh;
+    display: flex;
+    align-items:center;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    margin-left: 13rem;
+    margin-top: 18rem;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+}
+.r_h4::after {
+    content: url(/magazine-landing-page-ahm000d/assets/keyboard_double_arrow_right.png);
+}
+.f_h4 {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.f_h4::before {
+    content:url(/magazine-landing-page-ahm000d/assets/keyboard_double_arrow_down.png);
+}
+
+

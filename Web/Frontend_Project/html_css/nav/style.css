@@ -1,0 +1,40 @@
+body {
+    /* margin: 0%; */
+    background-color:rgba(255, 228, 196, 0.674);
+}
+/*  */
+.grid_box {
+    display: grid; /* Definiere body als grid*/
+    width: 100%; /* Browserbereite */
+    height: 100vh;
+                        /*  nav  main aside     */
+    grid-template-columns: 200px auto 200px; /* Spalten  */
+                     /* header main  footer*/    
+    grid-template-rows: 100px auto 60px ; /* Zeilen */
+    /* Belegung der Matrix mit freien Begriffen */
+    grid-template-areas: "kopf kopf kopf "
+                         "nav content aside" 
+                         "footer footer footer";
+}
+
+
+header {
+    grid-area: kopf;
+    background-color: red;
+}
+nav {
+    grid-area: nav;
+    background-color: yellow;
+}
+main {
+    grid-area: content;
+    background-color: gray;
+}
+aside {
+    grid-area: aside;
+    background-color: blue;
+}
+footer {
+    grid-area: footer;
+    background-color: green;
+}

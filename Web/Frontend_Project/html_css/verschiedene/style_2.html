@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- in head-->
+    <style>
+        * { /* alle Elemente sollen Eigenschaften haben */
+            color: white;
+            
+        }
+        :root {
+            --meine:rgb(241, 8, 218) ;
+        }
+        div{
+            margin-top: 20px;
+            border-radius: 20px;
+            text-align: center;
+            color: beige;
+            background-color: rgb(61, 0, 227);
+            width: 200px;
+            height:40px;
+            margin-bottom: 5px; /* abstand nach unten */
+        }
+        h2{
+            color: rgb(81, 244, 27);
+        }
+        .meine_farbe {
+            background-color: red;
+        }
+        .umrandung {
+            border: 7px solid var(--meine);
+        }
+        #sec_1 {
+            color: burlywood;
+            border: 1px solid rgb(255, 0, 21);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 0px 20px 20px rgba(255, 255, 0, 0.219);
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>Test</div>
+    <div><h1>hello</h1></div>
+    <div style="background-color: yellow;"></div>
+    <div class="meine_farbe umrandung"></div>
+    <div class="meine_farbe"></div>
+    <h2>Subhead</h2>
+    <section id="sec_1"> 
+        <!-- id name nur 1 mal verwenden Abschnitt, einmalig auf dieser webseite -->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nam ipsa magni suscipit totam doloremque molestiae iusto dignissimos, sunt cum porro animi repudiandae voluptate quod voluptatem aperiam eum omnis obcaecati ea aut nihil officia? Odit minus consequatur nisi enim tempore, omnis totam id accusantium, fuga autem fugit amet repellat architecto.
+    </section>
+    <div></div>
+</body>
+</html>
