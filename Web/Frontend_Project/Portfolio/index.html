@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/ahmadTech.png"/> 
+    <title>Portfolio Home</title>
+    
+</head>
+<body>
+    <div class="container">
+                <!-- Main -->
+        <main >
+            <div id="aboutmeDiv">
+                <h1>About me</h1>
+                <div id="about_me">
+                    <img src="../img/person-vor-computer-der-html-bearbeitet (1).jpg" alt="" class="about_me_img">
+                    <p class="about_me_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quo id voluptate molestias veniam, aliquid quos adipisci similique sint hic repellat! Iure ad laudantium reprehenderit voluptatum veritatis. Aut molestias numquam quidem. Ab nobis quos tempore voluptas magnam maiores numquam accusamus dignissimos voluptatem nam blanditiis ratione deleniti, minima enim tempora temporibus harum perferendis corrupti sed hic quaerat, a, dicta nemo. Alias dolorem pariatur, reprehenderit temporibus, quae omnis eius laborum ad aliquid odit beatae veniam eum voluptatem. Error voluptates repellat sunt, perspiciatis velit eius, distinctio voluptatum enim ducimus expedita dicta laboriosam obcaecati quis, fuga quod sit repudiandae tempora debitis consequuntur provident iste?</p>
+                </div>
+            </div>
+            <div id="contactmeDiv">
+                <h1>My Contact Info.</h1>
+                <div id="contact_me_card">
+                    <div >
+                        <a href="#"><img src="../img/icons8-tel-58.png" alt="" class="social_img"></a>
+                        <a href="#"><img src="../img/icons8-email-50.png" alt="" class="social_img"></a><br>
+                        <a href="#"><img src="../img/icons8-facebook-48.png" alt="" class="social_img"></a>
+                        <a href="#"><img src="../img/icons8-instagram-48.png" alt="" class="social_img"></a>
+                        <a href="#"><img src="../img/icons8-twitter-48.png" alt="" class="social_img"></a>
+                        <a href="#"><img src="../img/icons8-github-100.png" alt="" class="social_img"></a>
+                        <a href="#"><img src="../img/icons8-youtube-48.png" alt="" class="social_img"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="projectsDiv">
+                <h1>My Projects</h1>
+                <div id="projects"> 
+                    
+                    <div id="firstProject">
+                        <h4>First Project</h4>
+                        <img src="../img/backend.png" alt="" class="projects_img">
+                        <button onclick="delFirstProject()" id="deleteBtn">X</button>
+                    </div><br>
+                    <div id="secoundProject">
+                        <h4>Secound Project</h4>
+                        <img src="../img/web.png" alt="" class="projects_img">
+                        <button onclick="delsecoundProject()" id="deleteBtn">X</button>
+                    </div><br>
+                    <div id="thirdProject">
+                        <h4>Third Project</h4>
+                        <img src="../img/javascript1.png" alt="" class="projects_img">
+                        <button onclick="delthirdProject()" id="deleteBtn">X</button>
+                    </div><br><br>
+                    <div class="hinzufügen">
+                        <div>
+                        </div><br><br>
+                        <div>
+                            <input type="file" value="huchladen" id="inputFile">
+                            <input type="text" id="inputText"><br><br>
+                            <button id="addBtn" onclick="addNewDiv()">Add Project</button><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="skillsDiv">
+                <h1>My Skills</h1>
+                <div id="skills">
+                    <div class="skills_div">
+                        <div class="skills_div_card">
+                            <h4 id="skills_li"><code>{ Html }  </code><img src="../img/html-5.png" alt="" class="skills_ul_img"></h3>
+                            <p> HTML is the standard markup language for Web pages. 
+                                With HTML you can create your own Website.
+                                HTML is easy to learn - You will enjoy it!
+                            </p>
+                        </div><br>
+                        <div class="skills_div_card">
+                            <h4 id="skills_li"><code>{ Css }  </code><img src="../img/css.png" alt="" class="skills_ul_img"></h4>
+                            <p>CSS is the language we use to style an HTML document.
+                                CSS describes how HTML elements should be displayed.
+                                This tutorial will teach you CSS from basic to advanced.
+                            </p>
+                        </div><br>
+                        <div class="skills_div_card">
+                            <h4 id="skills_li"><code>{ JavaScript }  </code><img src="../img/javascript.png" alt="" class="skills_ul_img"></h4>
+                            <p>JavaScript is the world's most popular programming language.
+                                JavaScript is the programming language of the Web.
+                                JavaScript is easy to learn.
+                                This tutorial will teach you JavaScript from basic to advanced.
+                            </p>
+                        </div><br>
+                        <div class="skills_div_card">
+                            <h4><code>{ ReactJs }  </code><img src="../img/React-icon.svg.png" alt="" class="skills_ul_img"></h4>
+                            <p>React is a JavaScript library for building user interfaces.
+                                React is used to build single-page applications.
+                                React allows us to create reusable UI components.
+                            </p>
+                        </div><br>
+                        <div class="skills_div_card">
+                            <h4><code>{ NodeJs }  </code><img src="../img/nodejs.png" alt="" class="skills_ul_img"></h4>
+                            <p>Node.js is an open source server environment.
+                                Node.js allows you to run JavaScript on the server.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+                <!-- Aside -->
+        <aside>
+            <div class="main_div"> 
+                <!-- LOGO -->
+                <div class="logo">
+                    <img src="img/ahmadTech3.png" alt="Logo"  id="logo">
+                </div>
+                <div class="nav_btn">
+                    <h1 class="nav_h1">Ahmad</h1>
+                    <div class="btn_div_aside">
+                        <button class="button" type="button" id="aboutmeBtn">About me</button>
+                        <button class="button" type="button" id="skillsBtn">Skills</button>
+                        <button class="button" type="button" id="projectsBtn">Projects</button>
+                        <button class="button" type="button" id="contactmeBtn">Contact me</button>
+                        <span class="nav_span">
+                            <!-- <a href="pages/Contact_me.html">&laquo; </a>
+                            <a href="pages/About_me.html">&raquo;</a> -->
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </aside>
+                <!-- FOOTER -->
+        <footer>
+            
+            <div class="footer_div">
+                <!-- <div class="cardoDown">
+                    <img id="replay" src="img/icons8-play-100.png" alt="replay">
+                    <div class="down" id="downID">
+                        <img class="cardoDown_img" loading="lazy" src="img/bluecar.svg" width="150" height="90" alt="Spielzeugauto">
+                        <img class="cardoDown_img" id="imgP" loading="lazy" src="img/pika.gif" width="150" height="90" alt="Spielzeugauto">
+                    </div>
+                </div> -->
+                <label for="#">&copy; Reserved to Ahm@d</label>
+
+            </div>
+        </footer>
+    </div>
+    <script src="JavaScript/app.js"></script>
+</body>
+</html>
+
+
+
+
+
