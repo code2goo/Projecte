@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+a [target="_blank"]::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: " \f35d";
+}
+
+header {
+    text-align: right;
+    height: 10rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.65);
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100%;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+header h1 {
+    padding-right: 1.3rem;
+}
+h2 {
+    margin-top: 12rem;
+}
+.cards {
+    margin-left:  25%;
+}
+.product-card {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+.description, .information, .contact {
+    margin: 1rem;
+}
+
+.product-card {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+.product-card p {
+    padding: .5rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+.products img {
+    width: 15rem;
+    height: 10rem;
+    padding: .5rem;
+}
+
+.products h2 {
+    text-align: center;
+}
+table td:nth-of-type(1){
+    border: 1px solid gray;
+}
+th, td{
+    padding: 0.5rem;
+    text-align: center;
+    height: 5px;
+}
+table {
+    width: 100%;
+}
+table ,th, tr:nth-child(1) {
+    margin: 10px 0;
+    border : 1px solid gray;
+    border-collapse: collapse;
+}
+table tr:nth-child(even) {
+    background-color: rgb(209, 181, 167);
+}
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+form h4, h3 {
+    margin: 0.7rem 0 0.2rem 0;
+}
+
+input, textarea, .submit-btn {
+    padding: .5rem;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+}
+input:focus, textarea:focus {
+    border-color: rgb(158, 25, 85);
+}
+.submit-btn {
+    width: 10rem;
+    margin-top: 0.5rem;
+    background: none;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.32);
+    height: 15rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 1.8rem;
+}

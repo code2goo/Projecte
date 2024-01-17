@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+
+    margin-top: 9%;
+}
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: cyan;
+}
+section ul li:nth-child(2) {
+    color: blue;
+}
+section img {
+    float: left;
+    padding-right: 2px;
+}
+section .images {
+    display: inline-block;
+    width: 100%;
+    
+}
+.h_3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: rgb(255,165,0);
+}
+
+.box-model p , img{
+    padding: 5px;
+    /* margin: 10%; */
+}
+.tree_img { 
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    
+}
+footer a:visited {
+    color: green;
+}
+footer a:hover {
+    color: red;
+}
