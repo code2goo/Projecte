@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+            background: green;
+        }
+        .shadow {
+            box-shadow: 5px 5px 5px rgba(223, 20, 234, 0.758);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="id1">Selctieren über id</h1>
+    <div id="box1"></div>
+    <!-- Platzhalter-->
+    <section id="sec1"></section>
+    <span id="sp1"></span>
+    <div id="line"></div><br>
+
+    <script>
+        // Object.methode('selector').eigenschaft.eigenschaft
+        document.getElementById('id1').style.color='yellow';
+        document.getElementById('id1').style.background='gray';
+        document.getElementById('id1').style.width='300px';
+        // css text-align:center -> javascript textAlign ='center'
+        document.getElementById('id1').style.textAlign='center';
+        document.getElementById('id1').style.borderRadius='10px';
+        document.getElementById('id1').style.border='1px solid red';
+        // ganze Klasse zuweisen
+        document.getElementById('box1').className='box';
+        document.getElementById('box1').style.border='2px solid blue';
+        // in vorhandene Elemente schreiben
+        document.getElementById('sec1').innerHTML = '<h1 style="color:gold">innerHTML</h1>';
+        // Variablen als Instanz
+        // Variablen klein Schreiben/Camelcase keine Umlaute ü->ue , Sonderzeichen _ 
+        // x = wert 
+        var xyz_1=  document.getElementById('sp1').style;
+        xyz_1.display ='block';  // da span kein block Element
+        xyz_1.background = 'blue';
+        xyz_1.width = '50px';
+        xyz_1.height = '50px';
+        xyz_1.borderRadius = '50%';
+        xyz_1.border= '2px solid red';
+        // Attribure setzen
+        var line = document.getElementById('line');
+        line.setAttribute('style','width:100%;height:1px;background:red');
+        line.setAttribute('class','shadow');
+
+        // document.getElementById("line").setAttribute('style','width:100%;height:5px;background:yellow');
+
+        // dynamisches Erzeugen von Elementen
+        var meinDiv = document.createElement('div'); // erstelle ein Div
+        meinDiv.innerHTML = "Mein Text";
+        meinDiv.style.background = 'rgba(223, 20, 234, 0.758)';
+        meinDiv.style.color ="white";
+        meinDiv.style.borderRadius = "5px";
+        meinDiv.style.display = "inline-Block"; // sonst komplette Breite
+        meinDiv.style.marginTop = "20px"; // Abstand nach oben
+        meinDiv.style.padding = "5px"; // Innenabstand
+        document.body.appendChild(meinDiv); // Body = parent, hinzufügen zum <body>
+
+        // Konsolenausgabe
+        // console.log(xyz_1); //für Testzwecke
+    </script>
+</body>
+</html>
