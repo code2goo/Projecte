@@ -1,0 +1,20 @@
+
+:root {
+	--mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    /* --secondaryColor: #db2b39; */
+	--secondaryColor: #FFDE5A;
+    --textColor: #ffffff;
+}
+
+.footer{
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
