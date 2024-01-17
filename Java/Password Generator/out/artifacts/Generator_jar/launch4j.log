@@ -1,0 +1,23 @@
+
+
+Version:	3.12
+CmdLine:	G:\Meine Ablage\Umshulung\9_Monat_28-08-2023----24-09-2023\37_Woche_11--17_09_2023  Objektorientierung II\Java\Generator\out\artifacts\Generator_jar\Passgenerator.exe --l4j-debug
+WOW64:		yes
+Working dir:	G:\Meine Ablage\Umshulung\9_Monat_28-08-2023----24-09-2023\37_Woche_11--17_09_2023  Objektorientierung II\Java\Generator\out\artifacts\Generator_jar\.
+Java min ver:	1.000.001
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre-1.8\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_381
+Check launcher:	C:\Program Files\Java\jre-1.8\bin\javaw.exe (OK)
+Match:		1.008.000_381
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_381 (64-bit)
+Launcher:	C:\Program Files\Java\jre-1.8\bin\javaw.exe
+Launcher args:	-jar "G:\Meine Ablage\Umshulung\9_Monat_28-08-2023----24-09-2023\37_Woche_11--17_09_2023  Objektorientierung II\Java\Generator\out\artifacts\Generator_jar\Passgenerator.exe"
+Args length:	173/32768 chars
+Exit code:	0
