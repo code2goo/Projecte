@@ -1,0 +1,11 @@
+.donation{
+    /* background-image: url(../Home/Main/img/logo1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    text-align: center;
+}
+
+.donationCard>.card{
+    margin: 60px;
+}
