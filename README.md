@@ -1,4 +1,4 @@
-Projekte auf meiner Ausbildungsreise:
+Projekte auf meiner Umschlungsreise:
 
 Hallo, ich bin Ahmad.
 In meinem GitHub-Repository präsentiere ich eine Auswahl kleiner und grundlegender Projekte, 
